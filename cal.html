@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+        <title>Web Calculator</title> 
+        <script type="text/javascript" src="calculator2.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <div id="screen">
+                <div id="expression"><span id="tex_exp"></span></div>
+                <div id="numbers"><span id="tex_num">0</span></div>
+                <div id="error"><span id="tex_err"></span></div>
+            </div>
+            <div id="small_button">
+                <div id="first">
+                    <div id="del" onclick="myDelete(this)">DEL</div>
+                    <div id="reset" onclick="Reset(this)">C</div>
+                    <div id="pos_neg" onclick="posNeg(this)">+/-</div>
+                    <div id="square" onclick="square(this)">^2</div>
+                    <div id="root" onclick="root(this)">^.5</div>
+                </div>
+                <div id="second">
+                    <div id="_7" onclick="inNumber(this)">7</div>
+                    <div id="_8" onclick="inNumber(this)">8</div>
+                    <div id="_9" onclick="inNumber(this)">9</div>
+                    <div id="division" onclick="division(this)">/</div>
+                    <div id="percent" onclick="percent(this)">%</div>
+                </div>
+                <div id="third">
+                    <div id="_4" onclick="inNumber(this)">4</div>
+                    <div id="_5" onclick="inNumber(this)">5</div>
+                    <div id="_6" onclick="inNumber(this)">6</div>
+                    <div id="multiply" onclick="multiply(this)">*</div>
+                    <div id="reciprocal" onclick="reciprocal(this)">1/x</div>
+                </div>
+                <div id="forth_fifth">
+                    <div id="_1" onclick="inNumber(this)">1</div>
+                    <div id="_2" onclick="inNumber(this)">2</div>
+                    <div id="_3" onclick="inNumber(this)">3</div>
+                    <div id="sub" onclick="sub(this)">-</div>
+                    <div id="dot" onclick="inDot(this)">.</div>
+                    <div id="add" onclick="add(this)">+</div>
+                </div>
+            </div>
+            <div id="zero" onclick="inNumber(this)">0</div>
+            <div id="equal" onclick="equal(this)">=</div>
+        </div>
+    </body>
+</html>

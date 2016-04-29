@@ -1,0 +1,250 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    color:#000;
+    background:#fff;
+    font-family:Helvetica;
+    font-size:22px;
+}
+.main{
+    width:398px;
+    height:548px;
+    border:#676767 solid 1px;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+}
+#screen{
+    width:348px;
+    height:118px;
+    border:#000 solid 1px;
+    position:relative;
+    left:26px;
+    top:22px;
+    text-align:right;    
+}
+#tex_exp{
+    padding-right:10px;
+}
+#tex_num{
+    padding-right:10px;
+}
+#tex_err{
+    padding-right:10px;
+    font-weight:bold;
+    font-size:15px;
+}
+#expression{
+    width:348px;
+    height:28px;
+}
+#error{
+    width:348px;
+    height:28px;
+    color:#cccccc;
+}
+#numbers{
+    width:348px;
+    height:58px;
+    font-size:60px;
+}
+#small_button{
+    padding:0px;
+    margin:0px;
+    width:60px;
+    text-align:center;
+    cursor:pointer;
+}
+#del{
+    border:#000 solid 1px;
+    position:relative;
+    left:26px;
+    top:44px;
+    line-height:60px;
+    height:58px;
+}
+#reset{
+    border:#000 solid 1px;
+    position:relative;
+    left:98px;
+    top:-16px;
+    line-height:60px;
+    height:58px;
+}
+#pos_neg{
+    border:#000 solid 1px;
+    position:relative;
+    left:170px;
+    top:-76px;
+    line-height:60px;
+    height:58px;
+}
+#square{
+    border:#000 solid 1px;
+    position:relative;
+    left:242px;
+    top:-136px;
+    line-height:60px;
+    height:58px;
+}
+#root{
+    border:#000 solid 1px;
+    position:relative;
+    left:314px;
+    top:-196px;
+    line-height:60px;
+    height:58px;
+}
+#_7{
+    border:#000 solid 1px;
+    position:relative;
+    left:26px;
+    top:-181px;
+    line-height:60px;
+    height:58px;
+}
+#_8{
+    border:#000 solid 1px;
+    position:relative;
+    left:98px;
+    top:-241px;
+    line-height:60px;
+    height:58px;
+}
+#_9{
+    border:#000 solid 1px;
+    position:relative;
+    left:170px;
+    top:-301px;
+    line-height:60px;
+    height:58px;
+}
+#division{
+    border:#000 solid 1px;
+    position:relative;
+    left:242px;
+    top:-361px;
+    line-height:60px;
+    height:58px;
+}
+#percent{
+    border:#000 solid 1px;
+    position:relative;
+    left:314px;
+    top:-421px;
+    line-height:60px;
+    height:58px;
+}
+#_4{
+    border:#000 solid 1px;
+    position:relative;
+    left:26px;
+    top:-405px;
+    line-height:60px;
+    height:58px;
+}
+#_5{
+    border:#000 solid 1px;
+    position:relative;
+    left:98px;
+    top:-465px;
+    line-height:60px;
+    height:58px;
+}
+#_6{
+    border:#000 solid 1px;
+    position:relative;
+    left:170px;
+    top:-525px;
+    line-height:60px;
+    height:58px;
+}
+#multiply{
+    border:#000 solid 1px;
+    position:relative;
+    left:242px;
+    top:-585px;
+    line-height:60px;
+    height:58px;
+}
+#reciprocal{
+    border:#000 solid 1px;
+    position:relative;
+    left:314px;
+    top:-645px;
+    line-height:60px;
+    height:58px;
+}
+#_1{
+    border:#000 solid 1px;
+    position:relative;
+    left:26px;
+    top:-630px;
+    line-height:60px;
+    height:58px;
+}
+#_2{
+    border:#000 solid 1px;
+    position:relative;
+    left:98px;
+    top:-690px;
+    line-height:60px;
+    height:58px;
+}
+#_3{
+    border:#000 solid 1px;
+    position:relative;
+    left:170px;
+    top:-750px;
+    line-height:60px;
+    height:58px;
+}
+#sub{
+    border:#000 solid 1px;
+    position:relative;
+    left:242px;
+    top:-810px;
+    line-height:60px;
+    height:58px;
+}
+#dot{
+    border:#000 solid 1px;
+    position:relative;
+    left:242px;
+    top:-795px;
+    line-height:60px;
+    height:58px;
+}
+#add{
+    border:#000 solid 1px;
+    position:relative;
+    left:170px;
+    top:-855px;
+    line-height:60px;
+    height:58px;
+}
+#zero{
+    width:130px;
+    border:#000 solid 1px;
+    position:relative;
+    left:26px;
+    top:-915px;
+    line-height:60px;
+    height:58px;
+    text-align:center;
+    cursor:pointer;
+}
+#equal{
+    width:58px;
+    height:134px;
+    border:#000 solid 1px;
+    position:relative;
+    left:314px;
+    top:-1050px;
+    line-height:136px;
+    text-align:center;
+    cursor:pointer;
+}
